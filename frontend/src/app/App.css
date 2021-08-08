@@ -1,0 +1,43 @@
+:root {
+    --bg-whitesnake: #EDEDED;
+    --bg-chat: #fff;
+
+    --nav-width: 415px;
+    --header-height: 80px;
+    --search-height: 80px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D2DBDC;
+    margin: 0;
+    font-family: 'segoe UI', Helvetica Neue, Helvetica, Lucida Grande, Arial;
+}
+
+.app {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: var(--nav-width) 1fr;
+    grid-template-rows: 
+        var(--header-height)
+        var(--search-height)
+        1fr;
+    grid-template-areas: 
+        "nav content"
+        "nav content"
+        "nav content";
+
+    height: 100vh;
+    background-color: var(--bg-whitesnake)
+}
+
+aside.menu-area {
+    grid-area: nav;
+}
+
+main.content {
+    grid-area: content;
+}

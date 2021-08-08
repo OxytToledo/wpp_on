@@ -1,0 +1,33 @@
+aside.menu-area {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #DDD;
+}
+
+.search {
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #eee;
+    padding: 10px 15px;
+}
+
+.search-input {
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.search input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    margin-left: 10px;
+    width: 350px;
+    margin: 5px 0px;
+}
+
+.search i.v-middle {
+    vertical-align: middle;
+}
