@@ -1,5 +1,4 @@
 .chatList {
-    flex: 1;
     background-color: #fff;
     overflow-y: auto;
 }
@@ -7,8 +6,10 @@
 .chatList::-webkit-scrollbar {
     width: 6px;
     height: 6px;
+    text-decoration: none;
 }
 
 .chatList::-webkit-scrollbar-thumb {
     background-color: rgba(148, 148, 148, 0.452);
+    text-decoration: none;
 }

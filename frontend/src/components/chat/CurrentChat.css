@@ -1,0 +1,88 @@
+.currentChat {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.chatHeader {
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerInfo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+div.headerInfo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 15px;
+}
+
+.chatName {
+    font-size: 17px;
+    color: black;
+}
+
+.headerButtons {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.chatBtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.chatBody {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #e5ddd5;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../assets/imgs/bg_wpp.jpg);
+}
+
+.chatFooter {
+    height: 62px;
+    display: flex;
+    align-items: center;
+}
+
+.footerCurrent {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    margin: 0 15px;
+}
+
+div.footerInput input {
+    flex: 1;
+    height: 40px;
+    width: 770px;
+    border: 0;
+    outline: 0;
+    background-image: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #4a4a4a;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+.footerBefore {
+ display: flex;
+ flex: 1;
+}
