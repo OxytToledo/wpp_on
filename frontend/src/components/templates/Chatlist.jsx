@@ -8,7 +8,7 @@ export default props =>
             <div className="divChatList"><img src={avatar} alt="" className="chatList-avatar" /></div>
             <div className="chatList-lines">
                 <div className="chatList-line">
-                    <div className="chatList-name">Zé Ramalho</div>
+                    <div className="chatList-name">Marcos Loto</div>
                     <div className="chatList-date">18:30</div>
                 </div>
                 <div className="chatList-line">

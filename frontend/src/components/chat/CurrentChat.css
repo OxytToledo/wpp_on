@@ -58,21 +58,18 @@ div.headerInfo img {
 .chatFooter {
     height: 62px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 .footerCurrent {
-    display: flex;
-    flex: 1;
-    justify-content: flex-start;
     margin: 0 15px;
 }
 
 div.footerInput input {
-    flex: 1;
     height: 40px;
-    width: 770px;
     border: 0;
+    width: 100vh;
     outline: 0;
     background-image: #fff;
     border-radius: 20px;
@@ -80,9 +77,4 @@ div.footerInput input {
     color: #4a4a4a;
     padding-left: 15px;
     justify-content: center;
-}
-
-.footerBefore {
- display: flex;
- flex: 1;
 }
